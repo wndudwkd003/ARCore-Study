@@ -29,8 +29,13 @@ android {
 }
 
 dependencies {
+    // ARCore
     implementation 'com.google.ar:core:1.35.0'
     implementation 'de.javagl:obj:0.2.1'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
